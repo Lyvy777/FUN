@@ -2,10 +2,11 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$dbname = "sweettooth_db";
+$dbname = "golden_whisk_db";
 
-$conn = new mysqli($host, $user, $pass, $dbname);
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+$db_link = new mysqli($host, $user, $pass, $dbname);
+
+if ($db_link->connect_error) {
+    die("Connection failed: " . $db_link->connect_error);
 }
 ?>
