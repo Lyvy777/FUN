@@ -29,8 +29,8 @@ if (isset($_POST['register'])) {
     if ($check->num_rows > 0) {
         echo "<script>alert('Email already registered!');</script>";
     } else {
-        $sql = "INSERT INTO users(fullname, email, password) VALUES('$fullname','$email','$password')";
-        if ($conn->query($sql)) {
+        $save_query = "INSERT INTO users(fullname, email, password) VALUES('$fullname','$email','$password')";
+        if ($db_link->query($save_query)) {
             echo "<script>alert('Registration successful! Login now.'); window.location='login.php';</script>";
         } else {
             echo "<script>alert('Error during registration');</script>";
@@ -40,4 +40,3 @@ if (isset($_POST['register'])) {
 ?>
 </body>
 </html>
-
