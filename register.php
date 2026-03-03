@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Register - SweetTooth Bakery</title>
+  <title>Register - The Golden Whisk Bakery</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -25,7 +25,7 @@ if (isset($_POST['register'])) {
     $email = $_POST['email'];
     $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
-    $check = $conn->query("SELECT * FROM users WHERE email='$email'");
+    $check = $db_link->query("SELECT * FROM users WHERE email='$email'");
     if ($check->num_rows > 0) {
         echo "<script>alert('Email already registered!');</script>";
     } else {
@@ -40,3 +40,4 @@ if (isset($_POST['register'])) {
 ?>
 </body>
 </html>
+
