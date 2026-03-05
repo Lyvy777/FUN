@@ -1,37 +1,37 @@
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  background-color: #FAEDCD;
-  color: #6F4E37;
+  background-color: #FFF8E6;
+  color: #1B0F0B;
 }
 
 header {
-  background-color: #D4A373;
+  background-color: #F3E1C7;
   text-align: center;
   padding: 20px;
 }
 
-header h1 { color: #6F4E37; }
+header h1 { color: #1B0F0B; }
 
 nav a {
   text-decoration: none;
   margin: 0 15px;
-  color: #6F4E37;
+  color: #1B0F0B;
   font-weight: 600;
 }
 
 nav a.active, nav a:hover {
-  color: #D4A373;
+  color: #D19A2E;
 }
 
 .hero {
   text-align: center;
   padding: 60px;
-  background-color: #FEFAE0;
+  background-color: #FFF8E6;
 }
 
 button {
-  background-color: #D4A373;
+  background-color: #D19A2E;
   color: white;
   border: none;
   padding: 12px 25px;
@@ -40,7 +40,7 @@ button {
 }
 
 button:hover {
-  background-color: #6F4E37;
+  background-color: #A4161A;
 }
 
 .products {
@@ -52,7 +52,7 @@ button:hover {
 }
 
 .item {
-  background: #FEFAE0;
+  background: #FFF8E6;
   padding: 20px;
   border-radius: 10px;
   width: 250px;
@@ -71,7 +71,7 @@ button:hover {
   width: 350px;
   margin: 100px auto;
   text-align: center;
-  background-color: #FEFAE0;
+  background-color: #FFF8E6;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
@@ -87,7 +87,7 @@ button:hover {
 
 .auth-container button {
   width: 95%;
-  background-color: #D4A373;
+  background-color: #D19A2E;
   color: white;
   padding: 10px;
   border: none;
@@ -96,7 +96,7 @@ button:hover {
 }
 
 footer {
-  background-color: #D4A373;
+  background-color: #F3E1C7;
   text-align: center;
   padding: 15px;
   margin-top: 30px;
@@ -120,7 +120,7 @@ footer {
 }
 
 .contact form button {
-  background-color: #D4A373;
+  background-color: #D19A2E;
   color: white;
   border: none;
   padding: 10px;
@@ -130,7 +130,7 @@ footer {
 }
 
 .contact form button:hover {
-  background-color: #6F4E37;
+  background-color: #A4161A;
 }
 
 .contact-info {
@@ -144,7 +144,7 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 40px;
-  background-color: #FAEDCD;
+  background-color: #FFF8E6;
 }
 
 .about-content {
@@ -154,7 +154,7 @@ footer {
 }
 
 .about-content h2 {
-  color: #D4A373;
+  color: #D19A2E;
   margin-bottom: 15px;
 }
 
